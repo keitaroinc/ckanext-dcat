@@ -581,7 +581,6 @@ class EuropeanDCATAPProfile(RDFProfile):
     https://joinup.ec.europa.eu/asset/dcat_application_profile
 
     '''
-
     def parse_dataset(self, dataset_dict, dataset_ref):
 
         dataset_dict['tags'] = []
@@ -598,6 +597,11 @@ class EuropeanDCATAPProfile(RDFProfile):
             value = self._object_value(dataset_ref, predicate)
             if value:
                 dataset_dict[key] = value
+                
+        # If swediesh title is present override the default
+        for o in self.g.objects(dataset_ref, DCT.title):
+            if o.language == 'sv':
+                dataset_dict['title'] = unicode(o)
 
         if not dataset_dict.get('version'):
             # adms:version was supported on the first version of the DCAT-AP

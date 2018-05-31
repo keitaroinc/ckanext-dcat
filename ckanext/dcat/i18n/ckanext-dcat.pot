@@ -1,127 +1,143 @@
 # Translations template for ckanext-dcat.
-# Copyright (C) 2015 ORGANIZATION
+# Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the ckanext-dcat project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ckanext-dcat 0.1\n"
+"Project-Id-Version: ckanext-dcat 0.0.7\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-10 12:03+0000\n"
+"POT-Creation-Date: 2018-05-31 08:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 0.9.6\n"
+"Generated-By: Babel 2.3.4\n"
 
-#: ckanext/dcat/utils.py:30
+#: ckanext/dcat/utils.py:42
 msgid "URI"
 msgstr ""
 
-#: ckanext/dcat/utils.py:31
+#: ckanext/dcat/utils.py:43
 msgid "GUID"
 msgstr ""
 
-#: ckanext/dcat/utils.py:32
+#: ckanext/dcat/utils.py:44
 msgid "Theme"
 msgstr ""
 
-#: ckanext/dcat/utils.py:33
+#: ckanext/dcat/utils.py:45
 msgid "Identifier"
 msgstr ""
 
-#: ckanext/dcat/utils.py:34
+#: ckanext/dcat/utils.py:46
 msgid "Alternate identifier"
 msgstr ""
 
-#: ckanext/dcat/utils.py:35
+#: ckanext/dcat/utils.py:47
 msgid "Issued"
 msgstr ""
 
-#: ckanext/dcat/utils.py:36
+#: ckanext/dcat/utils.py:48
 msgid "Modified"
 msgstr ""
 
-#: ckanext/dcat/utils.py:37
+#: ckanext/dcat/utils.py:49
 msgid "Version notes"
 msgstr ""
 
-#: ckanext/dcat/utils.py:38
+#: ckanext/dcat/utils.py:50
 msgid "Language"
 msgstr ""
 
-#: ckanext/dcat/utils.py:39
+#: ckanext/dcat/utils.py:51
 msgid "Frequency"
 msgstr ""
 
-#: ckanext/dcat/utils.py:40
+#: ckanext/dcat/utils.py:52
 msgid "Conforms to"
 msgstr ""
 
-#: ckanext/dcat/utils.py:41
+#: ckanext/dcat/utils.py:53
 msgid "Spatial URI"
 msgstr ""
 
-#: ckanext/dcat/utils.py:42
+#: ckanext/dcat/utils.py:54
 msgid "Start of temporal extent"
 msgstr ""
 
-#: ckanext/dcat/utils.py:43
+#: ckanext/dcat/utils.py:55
 msgid "End of temporal extent"
 msgstr ""
 
-#: ckanext/dcat/utils.py:44
+#: ckanext/dcat/utils.py:56
 msgid "Publisher URI"
 msgstr ""
 
-#: ckanext/dcat/utils.py:45
+#: ckanext/dcat/utils.py:57
 msgid "Publisher name"
 msgstr ""
 
-#: ckanext/dcat/utils.py:46
+#: ckanext/dcat/utils.py:58
 msgid "Publisher email"
 msgstr ""
 
-#: ckanext/dcat/utils.py:47
+#: ckanext/dcat/utils.py:59
 msgid "Publisher URL"
 msgstr ""
 
-#: ckanext/dcat/utils.py:48
+#: ckanext/dcat/utils.py:60
 msgid "Publisher type"
 msgstr ""
 
-#: ckanext/dcat/utils.py:49
+#: ckanext/dcat/utils.py:61
 msgid "Contact name"
 msgstr ""
 
-#: ckanext/dcat/utils.py:50
+#: ckanext/dcat/utils.py:62
 msgid "Contact email"
 msgstr ""
 
-#: ckanext/dcat/utils.py:51
+#: ckanext/dcat/utils.py:63
 msgid "Contact URI"
 msgstr ""
 
-#: ckanext/dcat/utils.py:52
+#: ckanext/dcat/utils.py:64
 msgid "Download URL"
 msgstr ""
 
-#: ckanext/dcat/utils.py:53
+#: ckanext/dcat/utils.py:65
 msgid "Media type"
 msgstr ""
 
-#: ckanext/dcat/utils.py:54
+#: ckanext/dcat/utils.py:66
 msgid "Size"
 msgstr ""
 
-#: ckanext/dcat/utils.py:55
+#: ckanext/dcat/utils.py:67
 msgid "Rights"
 msgstr ""
 
-#: ckanext/dcat/utils.py:56
+#: ckanext/dcat/utils.py:68
 msgid "Created"
+msgstr ""
+
+#: ckanext/dcat/harvesters/_json.py:22
+msgid "DCAT JSON Harvester"
+msgstr ""
+
+#: ckanext/dcat/harvesters/_json.py:23
+msgid "Harvester for DCAT dataset descriptions serialized as JSON"
+msgstr ""
+
+#: ckanext/dcat/harvesters/rdf.py:30
+msgid "Generic DCAT RDF Harvester"
+msgstr ""
+
+#: ckanext/dcat/harvesters/rdf.py:31
+msgid "Harvester for DCAT datasets from an RDF graph"
 msgstr ""
 

@@ -19,9 +19,10 @@ class DCATJSONHarvester(DCATHarvester):
     def info(self):
         return {
             'name': 'dcat_json',
-            'title': 'DCAT JSON Harvester',
-            'description': 'Harvester for DCAT dataset descriptions ' +
-                           'serialized as JSON'
+            'title': p.toolkit._('DCAT JSON Harvester'),
+            'description': p.toolkit._(
+                'Harvester for DCAT dataset descriptions serialized as JSON'
+            )
         }
 
     def _get_guids_and_datasets(self, content):

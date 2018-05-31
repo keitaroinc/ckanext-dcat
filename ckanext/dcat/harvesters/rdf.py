@@ -27,8 +27,10 @@ class DCATRDFHarvester(DCATHarvester):
     def info(self):
         return {
             'name': 'dcat_rdf',
-            'title': 'Generic DCAT RDF Harvester',
-            'description': 'Harvester for DCAT datasets from an RDF graph'
+            'title': p.toolkit._('Generic DCAT RDF Harvester'),
+            'description': p.toolkit._(
+                'Harvester for DCAT datasets from an RDF graph'
+            )
         }
 
     def _get_guid(self, dataset_dict, source_url=None):

@@ -9,137 +9,137 @@ msgstr ""
 "Project-Id-Version: ckanext-dcat 0.0.7\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-05-31 08:26+0200\n"
-"PO-Revision-Date: 2018-05-31 08:26+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2018-06-09 00:36+0200\n"
 "Language: mk\n"
 "Language-Team: mk <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #: ckanext/dcat/utils.py:42
 msgid "URI"
-msgstr ""
+msgstr "URI"
 
 #: ckanext/dcat/utils.py:43
 msgid "GUID"
-msgstr ""
+msgstr "ГУИД"
 
 #: ckanext/dcat/utils.py:44
 msgid "Theme"
-msgstr ""
+msgstr "Тема"
 
 #: ckanext/dcat/utils.py:45
 msgid "Identifier"
-msgstr ""
+msgstr "Идентификатор"
 
 #: ckanext/dcat/utils.py:46
 msgid "Alternate identifier"
-msgstr ""
+msgstr "Алтернативен идентификатор"
 
 #: ckanext/dcat/utils.py:47
 msgid "Issued"
-msgstr ""
+msgstr "Издаден"
 
 #: ckanext/dcat/utils.py:48
 msgid "Modified"
-msgstr ""
+msgstr "Променето"
 
 #: ckanext/dcat/utils.py:49
 msgid "Version notes"
-msgstr ""
+msgstr "Белешки за верзијата"
 
 #: ckanext/dcat/utils.py:50
 msgid "Language"
-msgstr ""
+msgstr "Јазик"
 
 #: ckanext/dcat/utils.py:51
 msgid "Frequency"
-msgstr ""
+msgstr "Фреквенција"
 
 #: ckanext/dcat/utils.py:52
 msgid "Conforms to"
-msgstr ""
+msgstr "Одговара со"
 
 #: ckanext/dcat/utils.py:53
 msgid "Spatial URI"
-msgstr ""
+msgstr "Просторен URI"
 
 #: ckanext/dcat/utils.py:54
 msgid "Start of temporal extent"
-msgstr ""
+msgstr "Почеток на привремено проширување"
 
 #: ckanext/dcat/utils.py:55
 msgid "End of temporal extent"
-msgstr ""
+msgstr "Крај на привремено проширување"
 
 #: ckanext/dcat/utils.py:56
 msgid "Publisher URI"
-msgstr ""
+msgstr "Издавач URI"
 
 #: ckanext/dcat/utils.py:57
 msgid "Publisher name"
-msgstr ""
+msgstr "Име на издавачот"
 
 #: ckanext/dcat/utils.py:58
 msgid "Publisher email"
-msgstr ""
+msgstr "Е-пошта на издавачот"
 
 #: ckanext/dcat/utils.py:59
 msgid "Publisher URL"
-msgstr ""
+msgstr "УРЛ на издавачот"
 
 #: ckanext/dcat/utils.py:60
 msgid "Publisher type"
-msgstr ""
+msgstr "Тип на издавач"
 
 #: ckanext/dcat/utils.py:61
 msgid "Contact name"
-msgstr ""
+msgstr "Контакт име"
 
 #: ckanext/dcat/utils.py:62
 msgid "Contact email"
-msgstr ""
+msgstr "Контакт е-пошта"
 
 #: ckanext/dcat/utils.py:63
 msgid "Contact URI"
-msgstr ""
+msgstr "Контакт URI"
 
 #: ckanext/dcat/utils.py:64
 msgid "Download URL"
-msgstr ""
+msgstr "Преземете УРЛ"
 
 #: ckanext/dcat/utils.py:65
 msgid "Media type"
-msgstr ""
+msgstr "Тип на медиум"
 
 #: ckanext/dcat/utils.py:66
 msgid "Size"
-msgstr ""
+msgstr "Големина на датотекa"
 
 #: ckanext/dcat/utils.py:67
 msgid "Rights"
-msgstr ""
+msgstr "Права"
 
 #: ckanext/dcat/utils.py:68
 msgid "Created"
-msgstr ""
+msgstr "Креирано"
 
 #: ckanext/dcat/harvesters/_json.py:22
 msgid "DCAT JSON Harvester"
-msgstr ""
+msgstr "DCAT JSON собирач"
 
 #: ckanext/dcat/harvesters/_json.py:23
 msgid "Harvester for DCAT dataset descriptions serialized as JSON"
-msgstr ""
+msgstr "Собирач за описи на DCAT податочни сетови серијализирани како JSON"
 
 #: ckanext/dcat/harvesters/rdf.py:30
 msgid "Generic DCAT RDF Harvester"
-msgstr ""
+msgstr "Генерички DCAT RDF собирач"
 
 #: ckanext/dcat/harvesters/rdf.py:31
 msgid "Harvester for DCAT datasets from an RDF graph"
-msgstr ""
-
+msgstr "Собирач за DCAT податочни сетови од RDF графикон"

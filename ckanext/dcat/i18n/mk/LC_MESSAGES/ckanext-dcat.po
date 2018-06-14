@@ -26,7 +26,7 @@ msgstr "URI"
 
 #: ckanext/dcat/utils.py:43
 msgid "GUID"
-msgstr "ГУИД"
+msgstr "GUID"
 
 #: ckanext/dcat/utils.py:44
 msgid "Theme"
@@ -46,7 +46,7 @@ msgstr "Издаден"
 
 #: ckanext/dcat/utils.py:48
 msgid "Modified"
-msgstr "Променето"
+msgstr "Променет"
 
 #: ckanext/dcat/utils.py:49
 msgid "Version notes"
@@ -78,7 +78,7 @@ msgstr "Крај на привремено проширување"
 
 #: ckanext/dcat/utils.py:56
 msgid "Publisher URI"
-msgstr "Издавач URI"
+msgstr "URI на издавачот"
 
 #: ckanext/dcat/utils.py:57
 msgid "Publisher name"
@@ -90,7 +90,7 @@ msgstr "Е-пошта на издавачот"
 
 #: ckanext/dcat/utils.py:59
 msgid "Publisher URL"
-msgstr "УРЛ на издавачот"
+msgstr "URL на издавачот"
 
 #: ckanext/dcat/utils.py:60
 msgid "Publisher type"
@@ -98,7 +98,7 @@ msgstr "Тип на издавач"
 
 #: ckanext/dcat/utils.py:61
 msgid "Contact name"
-msgstr "Контакт име"
+msgstr "Име за контакт"
 
 #: ckanext/dcat/utils.py:62
 msgid "Contact email"
@@ -110,7 +110,7 @@ msgstr "Контакт URI"
 
 #: ckanext/dcat/utils.py:64
 msgid "Download URL"
-msgstr "Преземете УРЛ"
+msgstr "URL за преземање"
 
 #: ckanext/dcat/utils.py:65
 msgid "Media type"
@@ -126,20 +126,20 @@ msgstr "Права"
 
 #: ckanext/dcat/utils.py:68
 msgid "Created"
-msgstr "Креирано"
+msgstr "Креиран"
 
 #: ckanext/dcat/harvesters/_json.py:22
 msgid "DCAT JSON Harvester"
-msgstr "DCAT JSON собирач"
+msgstr "Собирач за DCAT JSON"
 
 #: ckanext/dcat/harvesters/_json.py:23
 msgid "Harvester for DCAT dataset descriptions serialized as JSON"
-msgstr "Собирач за описи на DCAT податочни сетови серијализирани како JSON"
+msgstr "Собирач за описи на податочни сетови во DCAT, серијализирани како JSON"
 
 #: ckanext/dcat/harvesters/rdf.py:30
 msgid "Generic DCAT RDF Harvester"
-msgstr "Генерички DCAT RDF собирач"
+msgstr "Генерички собирач за DCAT RDF"
 
 #: ckanext/dcat/harvesters/rdf.py:31
 msgid "Harvester for DCAT datasets from an RDF graph"
-msgstr "Собирач за DCAT податочни сетови од RDF графикон"
+msgstr "Собирач за податочни сетови во DCAT од RDF графикон"

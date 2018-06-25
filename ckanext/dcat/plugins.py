@@ -130,11 +130,14 @@ class DCATPlugin(p.SingletonPlugin, DefaultTranslation):
         return data_dict
 
 
-class DCATJSONInterface(p.SingletonPlugin):
+class DCATJSONInterface(p.SingletonPlugin, DefaultTranslation):
 
     p.implements(p.IRoutes, inherit=True)
     p.implements(p.IActions)
     p.implements(p.IAuthFunctions, inherit=True)
+    if p.toolkit.check_ckan_version(min_version='2.5.0'):
+        p.implements(p.ITranslation, inherit=True)
+
 
     # IRoutes
     def after_map(self, map):
@@ -158,8 +161,11 @@ class DCATJSONInterface(p.SingletonPlugin):
         }
 
 
-class StructuredDataPlugin(p.SingletonPlugin):
+class StructuredDataPlugin(p.SingletonPlugin, DefaultTranslation):
     p.implements(p.ITemplateHelpers, inherit=True)
+    if p.toolkit.check_ckan_version(min_version='2.5.0'):
+        p.implements(p.ITranslation, inherit=True)
+
 
     # ITemplateHelpers
     def get_helpers(self):

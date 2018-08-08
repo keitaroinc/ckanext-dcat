@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ckanext-dcat 0.0.7\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-07-23 12:17+0200\n"
-"PO-Revision-Date: 2018-07-23 12:41+0200\n"
+"PO-Revision-Date: 2018-08-07 23:36+0200\n"
 "Language: sq\n"
 "Language-Team: sq <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -26,11 +26,11 @@ msgstr "URI"
 
 #: ckanext/dcat/utils.py:43
 msgid "GUID"
-msgstr "GUID"
+msgstr "GUID (identifikuesi global unik)"
 
 #: ckanext/dcat/utils.py:44
 msgid "Theme"
-msgstr "Temë"
+msgstr "Tema"
 
 #: ckanext/dcat/utils.py:45
 msgid "Identifier"
@@ -38,11 +38,11 @@ msgstr "Identifikuesi"
 
 #: ckanext/dcat/utils.py:46
 msgid "Alternate identifier"
-msgstr "Identifikues alternativ"
+msgstr "Identifikuesi alternativ"
 
 #: ckanext/dcat/utils.py:47
 msgid "Issued"
-msgstr "Hedhur në qarkullim"
+msgstr "Lëshuar"
 
 #: ckanext/dcat/utils.py:48
 msgid "Modified"
@@ -54,11 +54,11 @@ msgstr "Shënimet e versionit"
 
 #: ckanext/dcat/utils.py:50
 msgid "Language"
-msgstr "Gjuhe"
+msgstr "Gjuha"
 
 #: ckanext/dcat/utils.py:51
 msgid "Frequency"
-msgstr "Frekuencë"
+msgstr "Frekuenca"
 
 #: ckanext/dcat/utils.py:52
 msgid "Conforms to"
@@ -66,7 +66,7 @@ msgstr "Përputhet me"
 
 #: ckanext/dcat/utils.py:53
 msgid "Spatial URI"
-msgstr "URI hapësinor"
+msgstr "URI-ja hapësinore"
 
 #: ckanext/dcat/utils.py:54
 msgid "Start of temporal extent"
@@ -78,23 +78,23 @@ msgstr "Fundi i shtrirjes kohore"
 
 #: ckanext/dcat/utils.py:56
 msgid "Publisher URI"
-msgstr "URI i botuesit"
+msgstr "URI-ja e publikuesit"
 
 #: ckanext/dcat/utils.py:57
 msgid "Publisher name"
-msgstr "Emri i botuesit"
+msgstr "Emri i publikuesit"
 
 #: ckanext/dcat/utils.py:58
 msgid "Publisher email"
-msgstr "Botuesi i botuesit"
+msgstr "e-maili i publikuesit"
 
 #: ckanext/dcat/utils.py:59
 msgid "Publisher URL"
-msgstr "URL e botuesit"
+msgstr "URL-ja e publikuesit"
 
 #: ckanext/dcat/utils.py:60
 msgid "Publisher type"
-msgstr "Lloji i botuesit"
+msgstr "Lloji i publikimit"
 
 #: ckanext/dcat/utils.py:61
 msgid "Contact name"
@@ -102,7 +102,7 @@ msgstr "Emri i kontaktit"
 
 #: ckanext/dcat/utils.py:62
 msgid "Contact email"
-msgstr "Kontaktoni email-in"
+msgstr "E-maili për kontakt"
 
 #: ckanext/dcat/utils.py:63
 msgid "Contact URI"
@@ -110,7 +110,7 @@ msgstr "Kontaktoni URI"
 
 #: ckanext/dcat/utils.py:64
 msgid "Download URL"
-msgstr "Shkarko URL"
+msgstr "Shkarko URL-në"
 
 #: ckanext/dcat/utils.py:65
 msgid "Media type"
@@ -134,12 +134,12 @@ msgstr "DCAT JSON Korrje"
 
 #: ckanext/dcat/harvesters/_json.py:23
 msgid "Harvester for DCAT dataset descriptions serialized as JSON"
-msgstr "Korrje për përshkrimet e të dhënave të DCAT serialized si JSON"
+msgstr "Korrje për përshkrimin e setit të të dhënave DCAT serializuar si JSON"
 
 #: ckanext/dcat/harvesters/rdf.py:30
 msgid "Generic DCAT RDF Harvester"
-msgstr "Gjenerues DCAT RDF Harvester"
+msgstr "Gjeneruesi DCAT RDF Korrje"
 
 #: ckanext/dcat/harvesters/rdf.py:31
 msgid "Harvester for DCAT datasets from an RDF graph"
-msgstr "Korrje për të dhënat e DCAT nga një grafik RDF"
+msgstr " Korrje për setin e të dhënave DCAT nga një grafik RDF"
